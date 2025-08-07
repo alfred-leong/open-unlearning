@@ -1,0 +1,9 @@
+# @package _global_
+
+defaults:
+  - override /model: Llama-2-7b-chat-hf
+  - override /eval: lm_eval
+
+model:
+  model_args:
+    pretrained_model_name_or_path: open-unlearning/tofu_Llama-2-7b-chat-hf_full
